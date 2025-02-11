@@ -2,6 +2,7 @@ body {
   background: black;
   color: white;
   font-family: Arial, sans-serif;
+  overflow: hidden;
 }
 
 .app {
@@ -12,3 +13,5 @@ body {
 .content {
   display: flex;
 }
+
+

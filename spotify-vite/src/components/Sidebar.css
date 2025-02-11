@@ -13,4 +13,58 @@
     padding: 10px;
     margin: 5px 0;
   }
+
+  .sidebar-actions {
+    display: flex;
+    bottom: 50px;
+    left: 20px;
+    width: 200px;
+    position: absolute;
+    flex-direction: column;
+  }
+
+  .sidebar-logo {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+
+  .sidebar-links {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .sidebar-link {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+  }
+
+  .sidebar-link:hover {
+    background: #282828;
+  }
+
+  .create-btn, .podcast-btn {
+    width: 100%;
+    padding: 12px;
+    background: #282828;
+    border: none;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+
+  .create-btn:hover, .podcast-btn:hover {
+    background: #1db954;
+  }
   

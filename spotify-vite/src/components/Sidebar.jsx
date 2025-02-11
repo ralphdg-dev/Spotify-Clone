@@ -1,11 +1,21 @@
+import { FaHome, FaSearch, FaBook, FaPlusSquare, FaPodcast } from "react-icons/fa";
 import "./Sidebar.css";
 
 const Sidebar = () => {
   return (
     <aside className="sidebar">
-      <h2>Your Library</h2>
-      <button className="create-btn">Create playlist</button>
-      <button className="podcast-btn">Browse podcasts</button>
+      <div className="sidebar-logo">
+
+      </div>
+      <div className="sidebar-links">
+        <a href="#" className="sidebar-link"><FaHome /> Home</a>
+        <a href="#" className="sidebar-link"><FaSearch /> Search</a>
+        <a href="#" className="sidebar-link"><FaBook /> Your Library</a>
+      </div>
+      <div className="sidebar-actions">
+        <button className="create-btn"><FaPlusSquare /> Create Playlist</button>
+        <button className="podcast-btn"><FaPodcast /> Browse Podcasts</button>
+      </div>
     </aside>
   );
 };

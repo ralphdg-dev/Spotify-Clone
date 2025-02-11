@@ -10,6 +10,7 @@ import reputation from "../assets/reputation.jpg";
 import sweet from "../assets/sweet.jpeg";
 import kendrick from "../assets/kendrick.jpg"
 
+
 const artists = [
   { name: "Kendrick Lamar", img: kendrick},
   { name: "Bruno Mars", img: bruno },
