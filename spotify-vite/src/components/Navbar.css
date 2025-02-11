@@ -1,0 +1,25 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+  }
+  
+  .nav-links {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .nav-links a, .login-btn {
+    color: white;
+    text-decoration: none;
+    padding: 8px 12px;
+  }
+  
+  input[type="text"] {
+    width: 40%;
+    padding: 8px;
+  }
+  

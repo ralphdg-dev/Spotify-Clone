@@ -1,0 +1,69 @@
+.section-wrapper {
+    background-color: #181818;
+    padding: 60px 21px;
+    border-radius: 10px;
+    margin-bottom: 30px; 
+    width: 100%;
+  }
+  
+  .section-wrapper h2 {
+    color: white;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+.section-content {
+    position: relative;
+    top: -50px; 
+  }
+
+.main-content {
+    width: 95%;
+    max-width: 1600px; 
+    margin: 0 auto; 
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+    padding: 0 40px; 
+  }
+  
+
+  .main-content h2 {
+    align-self: flex-start;
+    font-size: 28px; 
+    margin-left: 10px; 
+  }
+  
+
+  .artists, .albums {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px; 
+    justify-content: flex-start;
+    width: 100%; 
+  }
+  
+
+  .artist-card {
+    text-align: center;
+  }
+  
+  .artist-card img {
+    width: 225px; 
+    height: 225px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+
+  .album-card {
+    text-align: center;
+  }
+  
+  .album-card img {
+    width: 225px;
+    height: 225px;
+    border-radius: 15px;
+    object-fit: cover;
+  }
+  
