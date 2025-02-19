@@ -83,3 +83,22 @@
     object-fit: cover;
   }
   
+  @keyframes glowing {
+    0% { box-shadow: 0 0 10px rgba(255, 215, 0, 0.6); }
+    50% { box-shadow: 0 0 20px rgba(255, 215, 0, 1); }
+    100% { box-shadow: 0 0 10px rgba(255, 215, 0, 0.6); }
+  }
+  
+  .artist-card.featured {
+    border: 3px solid gold;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(255, 215, 0, 0.6);
+    animation: glowing 1.5s infinite alternate ease-in-out;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .artist-card.featured:hover {
+    transform: scale(1.05);
+  }
+  

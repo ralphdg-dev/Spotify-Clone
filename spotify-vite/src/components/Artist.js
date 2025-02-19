@@ -9,15 +9,18 @@ import freudian from "../assets/freudian.jpg";
 import reputation from "../assets/reputation.jpg";
 import sweet from "../assets/sweet.jpeg";
 import kendrick from "../assets/kendrick.jpg"
+import luther from "../assets/luther.mp3"; 
+import smile from "../assets/brunoSong.mp3"
 
 
 export const artists = [
-  { name: "Kendrick Lamar", img: kendrick},
-  { name: "Bruno Mars", img: bruno },
-  { name: "Arthur Nery", img: arthur },
-  { name: "Lady Gaga", img: lady },
-  { name: "Taylor Swift", img: taylor }
+  { name: "Kendrick Lamar", img: kendrick, isFeatured: true, Audio: luther },
+  { name: "Bruno Mars", img: bruno, isFeatured: true, Audio: smile },
+  { name: "Arthur Nery", img: arthur, isFeatured: false },
+  { name: "Lady Gaga", img: lady, isFeatured: false },
+  { name: "Taylor Swift", img: taylor, isFeatured: false }
 ];
+
 
 export const albums = [
   { title: "SOS Deluxe: LANA", artist: "SZA", img: sza},
